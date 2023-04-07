@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300">
+    <circle cx="100" cy="100" r="100" fill="none" stroke="black" />
+    <line x1="200" y1="100" x2="9.91" y2="143.40" stroke="black" />
+    <line x1="9.91" y1="143.40" x2="162.35" y2="21.82" stroke="black" />
+    <line x1="162.35" y1="21.82" x2="77.75" y2="197.49" stroke="black" />
+    <line x1="77.75" y1="197.49" x2="77.75" y2="2.51" stroke="black" />
+    <line x1="77.75" y1="2.51" x2="162.35" y2="178.18" stroke="black" />
+    <line x1="162.35" y1="178.18" x2="9.91" y2="56.60" stroke="black" />
+    <line x1="9.91" y1="56.60" x2="200" y2="100" stroke="black" />
+    <circle cx="200" cy="100" r="2" fill="red" />
+    <circle cx="162.35" cy="178.18" r="2" fill="red" />
+    <circle cx="77.75" cy="197.49" r="2" fill="red" />
+    <circle cx="9.91" cy="143.40" r="2" fill="red" />
+    <circle cx="9.91" cy="56.60" r="2" fill="red" />
+    <circle cx="77.75" cy="2.51" r="2" fill="red" />
+    <circle cx="162.35" cy="21.82" r="2" fill="red" />
+</svg>
