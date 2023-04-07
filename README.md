@@ -64,8 +64,7 @@ Connections (each point to the one that is three positions clockwise from it):
 
 Now, let's create the SVG file using these connections:
 
-xml
-
+```xml
 <svg xmlns="http://www.w3.org/2000/svg" width="300" height="300">
     <circle cx="100" cy="100" r="100" fill="none" stroke="black" />
     <line x1="200" y1="100" x2="9.91" y2="143.40" stroke="black" />
@@ -83,5 +82,6 @@ xml
     <circle cx="77.75" cy="2.51" r="2" fill="red" />
     <circle cx="162.35" cy="21.82" r="2" fill="red" />
 </svg>
+```
 
 This SVG file contains a circle with a radius of 100, centered at (100, 100), and line elements connecting each point to the one that is three positions clockwise from it, forming a seven-pointed star. The individual red circles represent the seven points on the circle used to construct the star.
