@@ -1,7 +1,7 @@
 # gpt-svg-experiment
 Working to prompt chatgpt to create a SVG of a seven pointed star.
 
-## Prompt
+## Prompts
 I couldn't get gpt 3.5 to do successfully do it, but I was able to get gpt-4 to work.  However I couldn't get it done in single prompt.  I ended up with a stupidly simple two prompt approach that worked.
 
 ```
@@ -14,7 +14,7 @@ Followed by the prompt:
 Now follow that process and output that as SVG elements, creating a table of the connected points before outputting the SVG.
 ```
 
-## Output
+## Responses
 
 To draw a seven-pointed star, also known as a heptagram, follow these steps:
 
@@ -85,3 +85,6 @@ Now, let's create the SVG file using these connections:
 ```
 
 This SVG file contains a circle with a radius of 100, centered at (100, 100), and line elements connecting each point to the one that is three positions clockwise from it, forming a seven-pointed star. The individual red circles represent the seven points on the circle used to construct the star.
+
+## Result
+![7-pointed-star](star.svg)
